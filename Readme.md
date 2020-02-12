@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/ClearBlade/messaging-utils.svg?branch=master)](https://travis-ci.com/ClearBlade/messaging-utils)
+
 # Overview
 
 This repository contains a few messaging utilities for that provide promises around subscribing and bulk subscribing. TODO: add publish utilities.
