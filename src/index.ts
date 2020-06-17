@@ -1,4 +1,4 @@
-import './static/promise-polyfill/index.js';
+import '@clearblade/promise-polyfill';
 
 export function subscriber(topic: string): Promise<unknown> {
     const messaging = ClearBlade.Messaging();

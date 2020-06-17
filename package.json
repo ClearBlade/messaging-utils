@@ -8,7 +8,6 @@
         "prepublish": "tsc",
         "prebuild": "del lib/",
         "build": "tsc",
-        "postbuild": "cpy 'static/promise-polyfill/**' ../lib/ --cwd=src/ --parents",
         "lint": "eslint . --ext .ts",
         "lint:fix": "eslint . --ext .ts --fix"
     },
@@ -67,6 +66,7 @@
         "lib": "lib"
     },
     "dependencies": {
+        "@clearblade/promise-polyfill": "^1.0.0",
         "core-js": "^3.6.4"
     },
     "repository": {
